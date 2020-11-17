@@ -26,7 +26,11 @@ path('admin/', admin.site.urls),
     path('index/', views.index),
     path('Pagina2/', views.nintendo),
     path('loginTF/',views.login),
-    path('mantenedoRR/',views.registrar),
+    path('mantenedoRR/',vista.registrar),
+    path('mantenedorregistrar/',vista.registrar),
+
+
+# Felipe puedes agregar los path pls bb 
     
     
 ]
