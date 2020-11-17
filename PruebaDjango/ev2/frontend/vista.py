@@ -6,32 +6,6 @@ from frontend import models
 # Create your views here.
 
 
-
-
-
-#def login(request):
-  #  return render(request, 'login.html')
-
-
-
-#def loginpirquegames(request):
-    #usuario= 'sin usuario'
-    #if request.method=='POST':
-     #   usuario=request.POST.get('usuario')
-      #  contraseña=request.POST.get('contraseña')
- #       cuen= models.cuenta()
-  #      cuen.nom_usuario=usuario
-   #     cuen.contraseña=contraseña
-    #    cuen.save()
-       
-
-        
-
-    #return HttpResponse(usuario)
-
-#variable = Usuario.objects.create()
-
-
 def registrar(request):
     return render(request, 'registrar.html')
 
