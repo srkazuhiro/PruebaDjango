@@ -1,0 +1,133 @@
+.navbar{
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 5);
+    min-height: 100px;
+}
+
+
+.nav-link{
+    color: #1a1a1a;
+    margin-right: 15px;
+}
+
+.nav-link:hover{
+    color: #1a1a1a;
+}
+
+.logo{
+    min-width: 50px;
+    max-width: 80px;
+    margin-left: 30px;
+}
+
+.navbar-toggler{
+    font-size: 40px;
+}
+
+.navbar-toggler :focus{
+    outline: none;
+}
+
+.slide{
+    margin-top: 50px;
+
+}
+
+
+.slide img{
+    height: 70vh;
+}
+
+#modalAppointment .modal-body, #modalAppointment .modal-footer {
+    padding: 40px;
+  }
+  
+  .site-footer {
+    padding: 1em 0;
+    background: #f2f2f2;
+    font-size: 16px;
+  }
+  
+  .site-footer .list-unstyled li {
+    margin-bottom: 15px;
+  }
+  
+  .site-footer .list-unstyled li h3 {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Roboto", arial, sans-serif;
+  }
+  
+  .site-footer p {
+    color: #000;
+  }
+  
+  .site-footer p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .site-footer a {
+    color: #000;
+  }
+  
+  .site-footer a:hover {
+    opacity: .4;
+  }
+  
+  .site-footer h3 {
+    font-size: 20px;
+  }
+  
+  .site-footer .footer-link li {
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  .site-footer hr {
+    width: 100%;
+  }
+  
+  .blog-entry-footer .post-meta {
+    color: gray;
+    font-size: 15px;
+  }
+
+  .linea{
+      background: #550b51;
+      height: 5px;
+      width: 100%;
+      display: block;
+  }
+
+
+  .galeria{
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(350px,1fr)); 
+     width: 95%;
+     margin: auto;
+     grid-gap: 10px;
+     padding: 40px 0;
+     overflow: hidden;
+  }
+
+  .galeria > a{
+      display: block;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 0 6px rgba(0, 0, 0, 5);
+  }
+
+  .galeria img{
+      width: 100%;
+      vertical-align: top;
+      height: 300px;
+      object-fit: cover;
+      transition: transform 0.5s;
+  }
+
+
+  .galeria a:hover img{
+      filter: blur(2px);
+      transform: rotate(10deg) scale(1.3);
+
+  }
